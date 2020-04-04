@@ -1,0 +1,19 @@
+$primary: rgb(111, 0, 255);
+
+header {
+  background-color: $primary;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    max-width: 750px;
+    margin: 0 auto;
+
+    h1,
+    p {
+      color: whitesmoke;
+    }
+  }
+}
